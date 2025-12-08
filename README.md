@@ -36,7 +36,7 @@ Production-ready minimal URL shortener with Node.js, MongoDB and Redis.
 - `GET /api/info/:shortId` - metadata
 
 
-## Interview talking points
+## creation flow
 - ID generation: Redis INCR + Base62 encoder for unique, compact IDs
 - Cache-first read path for low-latency redirects
 - Async click logging to keep redirect latency low
