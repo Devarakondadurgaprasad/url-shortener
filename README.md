@@ -43,5 +43,4 @@ Production-ready minimal URL shortener with Node.js, MongoDB and Redis.
 - Sharding, CDN, rate-limiting and multi-region strategies explained in design notes
 
 
-## License
-MIT
+
